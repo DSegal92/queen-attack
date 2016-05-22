@@ -16,7 +16,6 @@ export default class Board extends Component {
 
     return(
       <div>
-        <p> {this.props.coordinates.filter(i => (i[0] === 1 && i[1] === 2))[0]} </p>
         <p> { this.props.canAttack } </p>
         <table className="testBoard">
           <tbody>
